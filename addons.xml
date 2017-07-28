@@ -601,7 +601,7 @@ https://www.facebook.com/groups/hskde/</description>
 	</extension>
 </addon>
 
-<addon id="repository.hsk.tool.time" name="[COLOR blue]HSK[/COLOR] TOOL [COLOR blue]TIME[/COLOR]" version="1.0.0" provider-name="[COLOR lime]GUIDO | SH Germany | HSK-DE[/COLOR]">
+<addon id="repository.hsktooltime" name="[COLOR blue]HSK[/COLOR] TOOL [COLOR blue]TIME[/COLOR]" version="1.0.0" provider-name="[COLOR lime]GUIDO | SH Germany | HSK-DE[/COLOR]">
     <extension point="xbmc.addon.repository" name="HSK TOOL TIME REPOSITORY">
 		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/hsktooltime/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/kaffepausse71/hsktooltime/addons.xml.md5</checksum>
