@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.antenne.unna" 
+name="[COLOR red]Antenne Unna[/COLOR]"
+version="1.0.1"
+	provider-name="SH Germania">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+       <summary>Radio Online Stream</summary>
+        <description> Antenne Unna Online http://www.antenneunna.de/</description>
+        <platform>all</platform>
+        <language>de</language>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website>http://www.antenneunna.de/</website>
+        <source></source>
+        <email></email>
+    </extension>
+</addon>

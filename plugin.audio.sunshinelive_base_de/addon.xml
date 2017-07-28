@@ -1,0 +1,52 @@
+﻿<?xml version="1.1.5" encoding="UTF-8" standalone="yes"?>
+<addon 
+    id="plugin.audio.sunshinelive_base_de"
+    name="[COLOR orange]SUNSHINE[/COLOR] LIVE [COLOR blue]BASE[/COLOR]"
+    version="1.1.7" 
+    provider-name="Loki1979/SH Germania/Guido">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>SUNSHINE BASE</summary>
+		<description>
+Hiermit bedanke ich mich bei Loki1979 und Guido für
+ihre Hilfe und Geduld mit mir bei diesem Addon.
+Vielen lieben Dank.
+
+Besucht uns mal auf Facebook.
+FACEBOOK GRUPPE HSK-DE:
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/
+
+SUNSHINELIVE HOUSE STREAM
+SUNSHINELIVE EDM STREAM
+SUNSHINELIVE LIVE STREAM
+SUNSHINELIVE CLASSIC STREAM
+SUNSHINELIVE TRANCE STREAM
+SUNSHINELIVE HARD STREAM
+SUNSHINELIVE TECHNO STREAM
+SUNSHINELIVE CLUBSOUND BERLIN STREAM
+SUNSHINELIVE LOUNGE STREAM
+SUNSHINELIVE DIE 90ER STREAM
+SUNSHINELIVE FESTIVAL STREAM
+SUNSHINELIVE HANDS UP STREAM
+SUNSHINELIVE MAYDAY STREAM
+SUNSHINELIVE NATURE ONE STREAM
+SUNSHINELIVE DRUM N BASS STREAM
+SUNSHINELIVE TIME WARP STREAM
+
+SUNSHINE BASE WEB URL:
+http://www.sunshine-live.de/
+
+</description>
+		<license></license>
+		<language></language>	
+		<source></source>
+		<email></email>
+	</extension>
+</addon>

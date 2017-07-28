@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon
+    id="plugin.audio.antenne-bayern"
+    name="[COLOR blue]Antenne[/COLOR] [COLOR yellow]Bayern[/COLOR]"
+    version="1.0.0"
+    provider-name="SH Germania">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Antenne Bayern</summary>
+		<description>
+Besucht uns mal auf Facebook.
+FACEBOOK GRUPPE HSK-DE:
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/
+
+
+Antenne Bayern WEB URL:
+
+http://www.antenne.de/
+
+</description>
+		<license></license>
+		<language>De</language>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+
+<addon id="plugin.audio.antenne.unna"
+name="[COLOR red]Antenne Unna[/COLOR]"
+version="1.0.1"
+	provider-name="SH Germania">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+       <summary>Radio Online Stream</summary>
+        <description> Antenne Unna Online http://www.antenneunna.de/</description>
+        <platform>all</platform>
+        <language>de</language>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website>http://www.antenneunna.de/</website>
+        <source></source>
+        <email></email>
+    </extension>
+</addon>
+
+<addon id="plugin.audio.ballermann" name="Radio Ballermann" version="2.0" provider-name="IPTVxtra Team">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>IPTVxtra Team</summary>
+    <description>Addon für Radio Ballermann von IPTVxtra.net
+
+	Radio Ballermann - das Original
+	Radio Ballermann - Country Hits
+	Radio Ballermann - Party Hits
+	Radio Ballermann - Top 100
+
+
+	http://www.IPTVxtra.net</description>
+	<website>http://www.iptvxtra.net</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.audio.beatz" name="B[COLOR red]eatZ By Stream Army[/COLOR]" version="1.0.3" provider-name="Stream Army">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.common.plugin.cache" version="2.5.8"/>
+    <import addon="script.module.metahandler" version="2.9.0"/>
+    <import addon="plugin.video.youtube" version="5.3.6" optional="false" />
+
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Beatz By Stream Army</summary>
+    <description lang="en">@Nemzzy668  / @_MANC_ / @EchoCoder</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+    id="plugin.audio.iloveradio"
+    name="[COLOR red]I Love Radio[/COLOR]"
+    version="1.0.0"
+    provider-name="SH Germania">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>I Love Radio</summary>
+		<description>
+Besucht uns mal auf Facebook.
+FACEBOOK GRUPPE HSK-DE:
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/
+
+
+I Love Radio WEB URL:
+
+http://www.iloveradio.de/
+
+</description>
+		<license></license>
+		<language></language>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+
+	<addon id="plugin.audio.MD3-Audio" version="1.0.2" name="MD3 Audio" provider-name="Mucky Duck">
+		<requires>
+			<import addon="xbmc.python"   version="2.1.0"/>
+            <import addon="script.module.t0mm0.common" version="2.0.0"/>
+			<import addon="repository.mdrepo"/>
+        </requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Free Radio And Mp3 Streaming</summary>
+			<description lang="en">Free MP3 streaming Of Your Favourite Songs And Radio Stations</description>
+			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+			<language>en</language>
+		</extension>
+	</addon>
+
+<addon id="plugin.audio.rautemusik"
+	name="RauteMusik.FM"
+	version="0.5.1"
+	provider-name="RauteMusik GmbH, Leo Moll">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="xbmc.addon" version="13.0.0"/>
+		<import addon="xbmc.json" version="6.6.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">RauteMusik.FM</summary>
+		<summary lang="en">RauteMusik.FM</summary>
+		<description lang="de">Das Internetradio RauteMusik.FM wurde im Jahr 2003 gegründet und hat sich seitdem zu Europas größtem Online Radio entwickelt. Rund 300 Mitglieder sorgen täglich dafür, dass rund um die Uhr die beste Musik der vergangenen Jahre und die Hits aus den aktuellen Charts über das Webradio gesendet werden können.</description>
+		<description lang="en">RauteMusik.FM was founded in 2003 and has become one of the largest internet radio networks in Europe. More than 300 members are working hard in providing the best music of the last years and the current charts.</description>
+		<disclaimer lang="de">Enjoy our music!</disclaimer>
+		<disclaimer lang="en">Enjoy our music!</disclaimer>
+		<platform>all</platform>
+		<language>en de</language>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=206315</forum>
+		<website>http://www.rautemusik.fm/</website>
+		<source></source>
+		<email>kontakt2014@rautemusik.fm</email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.audio.spotify" version="1.0.26" name="Spotify" provider-name="marcelveldt">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.six" version="1.9.0"/>
+        <import addon="script.module.unidecode" version="0.4.14"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+		<provides>audio</provides>
+	</extension>
+    <extension point="xbmc.python.library" library="spotifyservice.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Unofficial Spotify music plugin for Kodi</summary>
+        <description>Requires a Spotify premium account.</description>
+        <disclaimer>This product uses SPOTIFY(R) CORE but is not endorsed, certified or otherwise approved in any way by Spotify. Spotify is the registered trade mark of the Spotify Group.</disclaimer>
+    </extension>
+</addon>
+
+<addon
+    id="plugin.audio.sunshinelive_base_de"
+    name="[COLOR orange]SUNSHINE[/COLOR] LIVE [COLOR blue]BASE[/COLOR]"
+    version="1.1.7"
+    provider-name="Loki1979/SH Germania/Guido">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>SUNSHINE BASE</summary>
+		<description>
+Hiermit bedanke ich mich bei Loki1979 und Guido für
+ihre Hilfe und Geduld mit mir bei diesem Addon.
+Vielen lieben Dank.
+
+Besucht uns mal auf Facebook.
+FACEBOOK GRUPPE HSK-DE:
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/
+
+SUNSHINELIVE HOUSE STREAM
+SUNSHINELIVE EDM STREAM
+SUNSHINELIVE LIVE STREAM
+SUNSHINELIVE CLASSIC STREAM
+SUNSHINELIVE TRANCE STREAM
+SUNSHINELIVE HARD STREAM
+SUNSHINELIVE TECHNO STREAM
+SUNSHINELIVE CLUBSOUND BERLIN STREAM
+SUNSHINELIVE LOUNGE STREAM
+SUNSHINELIVE DIE 90ER STREAM
+SUNSHINELIVE FESTIVAL STREAM
+SUNSHINELIVE HANDS UP STREAM
+SUNSHINELIVE MAYDAY STREAM
+SUNSHINELIVE NATURE ONE STREAM
+SUNSHINELIVE DRUM N BASS STREAM
+SUNSHINELIVE TIME WARP STREAM
+
+SUNSHINE BASE WEB URL:
+http://www.sunshine-live.de/
+
+</description>
+		<license></license>
+		<language></language>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+
+<addon id="plugin.image.500px" name="500px" version="0.3.2"
+       provider-name="Patrick L Archibald [patrick.archibald@gmail.com]">
+  <requires>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>image</provides>
+  </extension>
+  <extension point="xbmc.python.module" library="resources/lib"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">View photos from http://500px.com.</summary>
+    <description lang="en">
+      View photos from http://500px.com.
+
+This addon was created by Patrick L Archibald (PLA), with contributions by Clément MATHIEU, Marian Flor, and Snorre Løvås.
+
+The source for this addon can be found at https://github.com/pla1/plugin.image.500px.
+    </description>
+    <license>GPL 2.0</license>
+    <language>en</language>
+    <forum>https://github.com/pla1/plugin.image.500px/issues</forum>
+    <website>https://github.com/pla1/plugin.image.500px</website>
+    <source>https://github.com/pla1/plugin.image.500px</source>
+    <email>Patrick.Archibald@gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="plugin.image.easywallpapers" name=" [COLOR lime]Easy Wallpapers[/COLOR]" version="1.0.0" provider-name="SchisM">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en">Easy Wallpapers from the net</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.barbie" name="[COLOR orange]Barbies Welt[/COLOR]" version="1.0.0" provider-name="GUIDO SASSE | HSK-DE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
+	<import addon="plugin.video.youtube" version="5.3.7"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Barbies Welt</summary>
+    <description>FACEBOOK GRUPPE HSK-DE :
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.bares.rares" name="[COLOR aqua]Bares[/COLOR] für [COLOR aqua]Rares[/COLOR]" version="1.2.3" provider-name="GUIDO | HSK-DE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
+	<import addon="plugin.video.youtube" version="5.3.7"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Filme auf Youtube</summary>
+    <description>FACEBOOK GRUPPE HSK-DE :
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.film.yt" name="[COLOR lime]Filme[/COLOR] on [COLOR blue]Youtube[/COLOR]" version="1.2.2" provider-name="GUIDO SASSE | HSK-DE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
+	<import addon="plugin.video.youtube" version="5.3.7"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Filme auf Youtube</summary>
+    <description>FACEBOOK GRUPPE HSK-DE :
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.gdrive" version="0.8.0" name="gdrive" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image programs</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Listen to music, watch videos and view photos from your Google Drive account</summary>
+        <description>Plays music and video from your Google Drive account.  Not affiliated with Google.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.herzkino.yt" name="[COLOR red]Herz Kino[/COLOR]" version="1.0.0" provider-name="GUIDO SASSE | HSK-DE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
+	<import addon="plugin.video.youtube" version="5.3.7"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Herz Kino</summary>
+    <description>FACEBOOK GRUPPE HSK-DE :
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.kinderfilme.yt" name="[COLOR lime]Kinderfilme[/COLOR] on [COLOR blue]Youtube[/COLOR]" version="1.2.2" provider-name="GUIDO SASSE | HSK-DE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
+	<import addon="plugin.video.youtube" version="5.3.7"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Filme und Zeichentrick für Kids auf Youtube</summary>
+    <description>FACEBOOK GRUPPE HSK-DE :
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.kino.trailer" name="Kino Trailer" version="1.2.2" provider-name="GUIDO SASSE | HSK-DE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
+	<import addon="plugin.video.youtube" version="5.3.7"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Kino Trailer</summary>
+    <description>FACEBOOK GRUPPE HSK-DE :
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.musikvideos.yt" name="[COLOR lime]Musik Videos[/COLOR] on [COLOR blue]Youtube[/COLOR]" version="1.2.2" provider-name="GUIDO SASSE | HSK-DE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
+	<import addon="plugin.video.youtube" version="5.3.7"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Musik Videos auf Youtube</summary>
+    <description>FACEBOOK GRUPPE HSK-DE :
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.now_music" name="[COLOR blue]Now[/COLOR] [COLOR red]Music[/COLOR]"	version="2.0.4"	provider-name="Pulse Builds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="pulse.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Now Thats What I Call Music Collection</summary>
+    <description lang="en">All Content In This Addon Is Freely Available On The Internet</description>
+    <disclaimer lang="en">Please Use Genuine PULSE BUILDS Addons And Builds From Genuine Sources</disclaimer>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.now_music_usa" name="[COLOR blue]Now[/COLOR] [COLOR red]Music[/COLOR] [COLOR white]USA[/COLOR]"	version="1.0.4"	provider-name="Pulse Builds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="pulse.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Now Thats What I Call Music USA Collection</summary>
+    <description lang="en">All Content In This Addon Is Freely Available On The Internet</description>
+    <disclaimer lang="en">Please Use Genuine PULSE BUILDS And Addons From Genuine Sources</disclaimer>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.skinbase" name="[COLOR orange]GUIDOS[/COLOR] [COLOR cyan]SKINBASE[/COLOR]" version="1.2.1" provider-name="GUIDO SASSE | HSK-DE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
+	<import addon="plugin.video.youtube" version="5.3.7"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Guidos Youtube Chanel über Kodi Skins und Mods</summary>
+    <description>FACEBOOK GRUPPE HSK-DE :
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.spotitube" name="Youtube Music" version="2.0.5" provider-name="LORE/realvito">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.simplejson" optional="true"/>
+		<import addon="plugin.video.youtube" version="5.2.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">Musik über Youtube abspielen</summary>
+		<summary lang="en">Play Music via Youtube</summary>
+		<description lang="de">@realvito[CR]Musik aus verschiedenen Quellen z.B. Billboard, iTunes, Spotify etc. auswählen und über Youtube abspielen.[CR][CR]Für mehr Informationen zu allen Neuerungen siehe - CHANGELOG.[CR]     TEST IT AND LIKE IT</description>
+		<description lang="en">@realvito[CR]Choose Music from different sources e.g. Billboard, iTunes, Spotify etc. and play it via Youtube.[CR][CR]For more information about all new features see - CHANGELOG.[CR]     TEST IT AND LIKE IT</description>
+		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://www.kodinerds.net/index.php/Thread/47087-Release-YoutubeMusic-patched/</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/kodinerds/repo/tree/master/plugin.video.spotitube</source>
+		<news>[B][COLOR orangered]Version 2.0.4 + 2.0.5  (26.04.2017)[/COLOR][/B] by realvito[CR]
+- changed: Billboard - represent information from RSS-Feeds to represent information of the HTML-Page *
+- *(Because often errors appear in the RSS-Feeds of Billboard)
+- fixed: Spotify-Genres and Spotify-Playlists are NOT opened and errors are displayed *
+- *(urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590))
+- added: Spotify-Search for: Playlists - not public (on special request !)
+- quickfix: typing error in the script</news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.xycl_amazon_prime" name="Amazon Prime" version="15.2.1" provider-name="xycl">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.program.chrome.launcher" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>en de</language>
+        <summary lang="de">Amazon Prime Instant Video</summary>
+        <summary lang="en">Amazon Prime Instant Video</summary>
+        <description lang="de">Spielt die Filme von Amazon Prime Instant Video ab.[CR]Sie benötigen eine Amazon Prime Mitgliedschaft und einen installierten Chrome Browser![CR]Das Chrome Launcher Addon wird ebenfalls benötigt. Zu finden unter der URL: https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/addonscriptorde-beta-repo/repository.addonscriptorde-beta.zip</description>
+        <description lang="en">Plays movies from Amazon Prime Instant Video.[CR]You need an Amazon Prime membership and an installed Chrome browser and the chrome launcher addon![CR]Chrome Launcher URL: https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/addonscriptorde-beta-repo/repository.addonscriptorde-beta.zip</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.youtube" name="YouTube" version="5.3.12" provider-name="jdf76, bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+        <news>
+[fix/upd] replace custom simple_requests with script.module.requests to resolve ssl and cross-platform issues
+[add] 'Reset access manager' added to Maintenance section, sign out process(available when logged out) to clean up tokens in settings.xml
+[upd] set default for SSL certificate verification to 'true'
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <summary lang="en">Plugin for YouTube</summary>
+        <description lang="en">YouTube is one of the biggest video-sharing websites of the world.</description>
+		<summary lang="de">Plugin für YouTube</summary>
+        <description lang="de">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
+        <summary lang="pl">Wtyczka YouTube</summary>
+        <description lang="pl">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
+		<summary lang="hu">Kiegészítő  a YouTube-hoz</summary>
+        <description lang="hu">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
+        <summary lang="es">Plugin para YouTube</summary>
+        <description lang="es">YouTube es un uno de los mayores sitios web de intercambio de vídeos del mundo.</description>
+        <summary lang="ru">Видеодополнение YouTube</summary>
+        <description lang="ru">Данное дополнение позволяет находить и смотреть видео на всеми любимом сайте.</description>
+        <summary lang="fr">Plugin pour YouTube</summary>
+        <description lang="fr">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
+        <summary lang="zh">YouTube附加元件</summary>
+        <description lang="zh">「Youtube」是全世界最大的影片分享網站</description>
+        <summary lang="bg">Добавка за YouTube</summary>
+        <description lang="bg">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+		<summary lang="el">Πρόσθετο YouTube</summary>
+        <description lang="el">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
+        <summary lang="no">Tillegg for YouTube</summary>
+        <description lang="no">YouTube er en av verdens største nettsider for videodeling.</description>
+        <disclaimer lang="en"></disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=267160</forum>
+		<website>http://www.youtube.com</website>
+		<email>ytplugin at datanet dot ws</email>
+		<source>https://github.com/Kolifanes/plugin.video.youtube</source>
+	</extension>
+</addon>
+
+<addon id="repository.hsk.tool.time" name="[COLOR blue]HSK[/COLOR] TOOL [COLOR blue]TIME[/COLOR]" version="1.0.0" provider-name="[COLOR lime]GUIDO | SH Germany | HSK-DE[/COLOR]">
+    <extension point="xbmc.addon.repository" name="HSK TOOL TIME REPOSITORY">
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/hsktooltime/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/madmax/hsktooltime/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/hsktooltime/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR blue]HSK[/COLOR] TOOL [COLOR blue]TIME[/COLOR] </summary>
+        <description>HSK TOOL TIME präsentiert eine kleinen Sammlung an erlesenen Musik,Video und weiteren Addons. </description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
