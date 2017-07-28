@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.musikvideos.yt" name="[COLOR lime]Musik Videos[/COLOR] on [COLOR blue]Youtube[/COLOR]" version="1.2.2" provider-name="GUIDO SASSE | HSK-DE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
+	<import addon="plugin.video.youtube" version="5.3.7"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Musik Videos auf Youtube</summary>
+    <description>FACEBOOK GRUPPE HSK-DE :
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/</description>
+  </extension>
+</addon>
