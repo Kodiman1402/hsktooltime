@@ -473,6 +473,35 @@ http://www.sunshine-live.de/
 	</extension>
 </addon>
 
+<addon id="plugin.audio_goodsound" name="[COLOR dodgerblue]Good Sound[/COLOR]" version="1.0.0" provider-name="[COLOR dodgerblue]SH Germania[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+   <summary lang="en">[COLOR dodgerblue]Radio Online Stream[/COLOR]</summary>
+    <description lang="en">[COLOR dodgerblue]
+
+Good Sound Online Radio
+
+Besucht uns mal auf Facebook.
+FACEBOOK GRUPPE HSK-DE:
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/
+
+Kodimans Forum:
+https://www.kodiman.net/[/COLOR]</description>
+    <platform>all</platform>
+    <language>ger</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website>http://good-sound.de/tapp/index/4718</website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>
+
 <addon id="plugin.image.500px" name="500px" version="0.3.2"
        provider-name="Patrick L Archibald [patrick.archibald@gmail.com]">
   <requires>
@@ -782,6 +811,24 @@ https://www.facebook.com/groups/hskde/</description>
 - added: Spotify-Search for: Playlists - not public (on special request !)
 - quickfix: typing error in the script</news>
 	</extension>
+</addon>
+
+<addon id="plugin.video.western.von.gestern.yt" name="[COLOR orange]W[/COLOR]ester[COLOR orange]n[/COLOR] von [COLOR orange]G[/COLOR]ester[COLOR orange]n[/COLOR]" version="1.0.0" provider-name="GUIDO | HSK-DE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
+	<import addon="plugin.video.youtube" version="5.3.7"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Western auf Youtube</summary>
+    <description>FACEBOOK GRUPPE HSK-DE :
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/</description>
+  </extension>
 </addon>
 
 <addon id="plugin.video.xycl_amazon_prime" name="Amazon Prime" version="15.2.1" provider-name="xycl">
