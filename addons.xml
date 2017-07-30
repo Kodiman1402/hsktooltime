@@ -1,5 +1,168 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="metadata.musicvideos.imvdb"
+       name="The Internet Music Video Database"
+       version="0.6"
+       provider-name="tphoenix">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.musicvideos"
+             language="en"
+             library="imvdb.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">IMVDb Music Video Scraper</summary>
+    <description lang="en">This scraper downloads music video information from IMVDb.com.</description>
+    <website></website>
+    <source>http://github.com/tphoenix/metadata.musicvideos.imvdb</source>
+    <email></email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=205755</forum>
+    <license>GNU GPLv2</license>
+  </extension>
+</addon>
+
+<addon id="metadata.musicvideos.theaudiodb.com"
+       name="TheAudioDb.com for Music Videos"
+       version="1.3.3"
+       provider-name="Team Kodi">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+    <import addon="metadata.common.fanart.tv" version="3.1.0"/>
+    <import addon="metadata.common.theaudiodb.com" version="1.7.3"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.musicvideos"
+             language="en"
+             library="tadb.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="af">theaudiodb.com Musiek Video Skraper</summary>
+    <summary lang="be">theaudiodb.com Music Video Scraper</summary>
+    <summary lang="bg">Сваля инф. за музикални клипове от theaudiodb.com</summary>
+    <summary lang="ca">Arreplegador de vídeos musicals de theaudiodb.com</summary>
+    <summary lang="cs">Zdroj dat o hudebních videích theaudiodb.com</summary>
+    <summary lang="cy">Crafwr Fideo Cerddoriaeth theaudiodb.com</summary>
+    <summary lang="da">theaudiodb.com Musikvideo-scraper</summary>
+    <summary lang="de">theaudiodb.com Musikvideo Scraper</summary>
+    <summary lang="el">Scraper Μουσικών Βίντεο του theaudiodb.com</summary>
+    <summary lang="en">theaudiodb.com Music Video Scraper</summary>
+    <summary lang="en_NZ">theaudiodb.com Music Video Scraper</summary>
+    <summary lang="en_US">theaudiodb.com Music Video Scraper</summary>
+    <summary lang="es">Buscador de videoclips de theaudiodb.com</summary>
+    <summary lang="es_AR">Scraper de Videos de Música de theaudiodb.com</summary>
+    <summary lang="et">theaudiodb.com muusikavideo kraabits</summary>
+    <summary lang="fi">theaudiodb.com musiikkivideotietojen lataaja</summary>
+    <summary lang="fr">theaudiodb.com Scraper Clip Vidéo</summary>
+    <summary lang="fr_CA">Extracteur de vidéos musicales pour theaudiodb.com</summary>
+    <summary lang="gl">Scraper de vídeo e música de theaudiodb.com</summary>
+    <summary lang="he">theaudiodb.com סקרייפר וידאו קליפ</summary>
+    <summary lang="hr">theaudiodb.com sakupljač za glazbene spotove</summary>
+    <summary lang="hu">theaudiodb.com videóklip leolvasó</summary>
+    <summary lang="id">Pengais Video Musik theaudiodb.com</summary>
+    <summary lang="is">theaudiodb.com Skafa fyrir Tónlistarmyndbönd</summary>
+    <summary lang="it">Lo scraper di video musicali theaudiodb.com</summary>
+    <summary lang="ja">theaudiodb.com 音楽ビデオスクレーパー</summary>
+    <summary lang="ko">theaudiodb.com 뮤직 비디오 정보수집기</summary>
+    <summary lang="lt">theaudiodb.com muzikinių vaizdo klipų skreperis</summary>
+    <summary lang="mk">theaudiodb.com Music Video Scraper</summary>
+    <summary lang="ms">Pengikis Video Muzik theaudiodb.com</summary>
+    <summary lang="my">theaudiodb.com Music Video Scraper</summary>
+    <summary lang="nl">theaudiodb.com Muziekvideo-scraper</summary>
+    <summary lang="no">theaudiodb.com Skraper for musikkvideo</summary>
+    <summary lang="pl">Scraper teledysków theaudiodb.com</summary>
+    <summary lang="pt">Colector de música theaudiodb.com</summary>
+    <summary lang="pt_BR">Scraper de concertos theaudiodb.com</summary>
+    <summary lang="ro">Informaţii videoclipuri de la theaudiodb.com </summary>
+    <summary lang="ru">Скрапер музыки и видео theaudiodb.com</summary>
+    <summary lang="se">Skrapa för theaudiodb.com musik</summary>
+    <summary lang="sk">Zdroj získavania dát o hudobných videách zo stránky theaudiodb.com</summary>
+    <summary lang="sl">Ponudnik informacij o videospotih theaudiodb.com</summary>
+    <summary lang="sv">theaudiodb.com musikvideoskrapa</summary>
+    <summary lang="ta_IN">theaudiodb.com இசை நிகழ்படம் சுரண்டி</summary>
+    <summary lang="th">ตัวดึงข้อมูลวิดีโอเพลง theaudiodb.com</summary>
+    <summary lang="uk">Здирач музичного відео з theaudiodb.com</summary>
+    <summary lang="vi">Trình lấy dữ liệu video nhạc từ theaudiodb.com</summary>
+    <summary lang="zh">theaudiodb.com 音乐电视刮削器</summary>
+    <summary lang="zh_TW">theaudiodb.com音樂影片搜括器</summary>
+    <description lang="af">Laai Musiek Video informasie af</description>
+    <description lang="am">የሙዚቃ ቪዲዮ መረጃ ማውረጃ</description>
+    <description lang="be">Download Music Video information</description>
+    <description lang="bg">Сваля информация за музикални клипове</description>
+    <description lang="ca">Baixa informació de videos musicals</description>
+    <description lang="cs">Zdroj dat stahující informace o hudebních videích z TheAudioDB.com. Kvůli složitým problémům s vyhledáváním požaduje nástroj pro vyhledávání název složky složky/souboru pojmenován jako 'umělec - název stopy', pokud tomu tak není, nenalezne žádné výsledky.</description>
+    <description lang="cy">Mae'r crafwr yn llwytho i lawr gwybodaeth am Gerddoriaeth Fideo o TheAudioDB.com. Oherwydd amryw o anawsterau chwilio mae'r crafwr yn disgwyl i'r ffolder/enw ffeil fod wedi ei fformatio fel 'artist - enw track' neu ni fydd yn dychwelyd canlyniadau.</description>
+    <description lang="da">Hent Musikvideo-information</description>
+    <description lang="de">Dieser Scraper lädt Musikvideoinformationen von TheAudioDB.com herunter. Aufgrund diverser Suchschwierigkeiten erwartet der Scraper derzeit, dass Ordner/Dateinamen als 'Künstler - Songname' formatiert werden, andernfalls wird er keine Ergebnisse zurückliefern.</description>
+    <description lang="el">Λήψη πληροφοριών Μουσικών Βίντεο</description>
+    <description lang="en">This scraper downloads Music Video information from TheAudioDB.com website. Due to various search difficulties the scraper currently expects the folder/filename to be formatted as 'artist - trackname' otherwise it will not return results. It is important to note the space between the hyphen.</description>
+    <description lang="en_NZ">This scraper downloads Music Video information from TheAudioDB.com website. Due to various search difficulties the scraper currently expects the folder/filename to be formatted as 'artist - trackname' otherwise it will not return results. It is important to note the space between the hyphen.</description>
+    <description lang="en_US">This scraper downloads Music Video information from TheAudioDB.com website. Due to various search difficulties the scraper currently expects the folder/filename to be formatted as 'artist - trackname' otherwise it will not return results. It is important to note the space between the hyphen.</description>
+    <description lang="es">Descarga información del videoclip</description>
+    <description lang="es_AR">Descarga información del Video Clip</description>
+    <description lang="es_MX">Descarga Información de Vídeos de Músca</description>
+    <description lang="et">Hankija laeb alla muusikavideo infot portaalist TheAudioDB.com. Mitmete otsinguohtude tõttu tuvastab hankija kausta/faili nime vormingus 'esitaja - loo nimi', muidu hankija ei suuda otsimist läbi viia.</description>
+    <description lang="fi">Lataa musiikkivideoiden tiedot</description>
+    <description lang="fr">Télécharger les informations des clips vidéos</description>
+    <description lang="fr_CA">Cet extracteur télécharge les informations sur les vidéos musicales depuis TheAudioDB.com. À cause de difficultés de recherche diverses, l'extracteur s'attend présentement à ce que le dossier/nom du fichier soit formaté comme « artiste - nom de la piste ». Aucun résultat ne sera retourné si ce n'est pas le cas.</description>
+    <description lang="gl">Este scraper descarga a información dende TheAudioDB.com. Debido a algúns problemas o scraper agarda que o cartafol/nome do ficheiro teña o formato 'artista - nome da pista' ou non retornará resultados.</description>
+    <description lang="he">הורד מידע וידאו קליפ</description>
+    <description lang="hr">Ovaj sakupljač preuzima informacije o glazbenim spotovima s TheAudioDB.com. Uslijed mnogih problema s pretragom sakupljač očekuje da mape i datoteke budu u formatu 'izvođač - naziv pjesme' ili neće dati rezultata.</description>
+    <description lang="hu">Videóklip információk letöltése a theaudiodb.com webhelyről</description>
+    <description lang="id">Pengais sedang mengunduh informasi musik video dari TheAudioDB.com. Dikarenakan berbagai kesulitan pencarian, Pengais mengharapkan folder/nama-berkas dalam format 'artis-judullagu' Apabila tidak, hasil tidak dapat muncul.</description>
+    <description lang="is">Þessi skafa halar niður upplýsingum Tónlistarmyndbanda frá TheAudioDB.com. Vegna ýmissa vandamála með leit þá gerir þessi skafa ráð fyrir að möppu/skráarnafn sé á forminu 'Listamaður - laganafn' annars skilar hún engum niðurstöðum.</description>
+    <description lang="it">Scarica informazioni Video Musicale</description>
+    <description lang="ja">このスクレイパーはTheAudioDB.comから音楽ビデオ情報をダウンロードしています。様々な検索の困難のため、スクレイパーは現在「アーティスト - 曲名」とフォーマットされているフォルダ/ファイルネームを期待しています。そうでなければ、結果を返しません。</description>
+    <description lang="ko">이 정보수집기믄 TheAudioDB.com에서 뮤직 비디오 정보를 가져옵니다. 여러가지 검색상의 어려움 때문에 폴더/파일이름이 '아티스트-트랙이름'으로 지정되어야 합니다. 그렇지 않으면 결과를 가져올 수 없습니다.</description>
+    <description lang="lt">Šis skreperis atsiunčia muzikinių vaizdo klipų informaciją iš TheAudioDB.com. Dėl įvairių paieškos sunkumų, aplanko/failo pavadinimo formatas turi būti 'atlikėjas - takelio pavadinimas'. Priešingu atvejus nebus rasta jokių rezultatų.</description>
+    <description lang="mk">Превземи информации за музичко видео</description>
+    <description lang="ms">Pengikis ini memuat turun maklumat Video Muzik dari TheAudioDB.com. Oleh kerana kesukaran menggelintar, pengikis biasanya jangkakan folder/namafail diformat sebagai 'artis - namatrek' jika tidak ia tidak akan kembalikan keputusan.</description>
+    <description lang="nl">Deze scraper download muziekvideo-informatie van TheAudioDB.com. Vanwege diverse zoek moeilijkheden verwacht de scraper nu dat de map/bestandsnaam is genaamd als 'artiest - Titel' anders zal het geen resultaten tonen.</description>
+    <description lang="no">Last ned musikkvideoinformasjon</description>
+    <description lang="pl">Scraper teledysków pobiera informacje z bazy TheAudioDB.com. Ze względu na różne trudności wyszukiwania, scraper obecnie wymaga aby folder/plik był sformatowany: "artysta - nazwa ścieżki" inaczej nie zadziała poprawnie.</description>
+    <description lang="pt">Descarregar informação de filmes de theaudiodb.com</description>
+    <description lang="pt_BR">Download de informação de Concertos</description>
+    <description lang="ro">Acest plugin descarcă informaţii despre videoclipuri de la TheAudioDB.com. Datorita dificultatilor de cautare, pluginul asteapta ca perechea director/nume fisier sa fie formatate ca 'artist - nume piesa' altfel nu va returna nici un rezultat.</description>
+    <description lang="ru">Загружать сведения о видеоклипах</description>
+    <description lang="se">Ladda ner musikvideoinformation från theaudiodb.com</description>
+    <description lang="sk">Tento zdroj dát získava informácie o hudobných videách zo stránky TheAudioDB.com. Z dôvodu rôznych problémov pri hľadaní, zdroj dát aktuálne očakáva, aby bol názov priečinka/súboru formátovaný ako 'interpret - názov_skladby', v opačnom prípade nevráti žiadne výsledky.</description>
+    <description lang="sl">Prenesite informacije o videospotih z TheAudioDB.com. Zaradi težavnosti iskanja morajo biti mape/datoteke v formatu 'izvajalec - pesem', drugače informacije ne bodo najdene.</description>
+    <description lang="sv">Ladda ner musikvideoinformation</description>
+    <description lang="ta_IN">இந்த வலை சுரண்டி TheAudioDB.com இல் இருந்து இசை வீடியோ தகவல்களை பதிவிறக்கம் செய்கிறது. பல்வேறு தேடல் சிரமங்கள் காரணமாக தற்போது இந்த வலை சுரண்டியானது கோப்புறை / கோப்பு பெயரை 'கலைஞர் - தடங்கள் பெயர்' எனவாக வடிவமைக்க வேண்டும் என்று எதிர்பார்க்கிறது இல்லையெனில் முடிவுகளை தராது. கலைஞர் அல்லது தடங்கள் பெயரில் '-' அடையாளம் இருந்தால் அதை கூட கண்டுபிடிக்க முடியாது.</description>
+    <description lang="th">ดาวน์โหลดข้อมูลวิดีโอเพลง</description>
+    <description lang="vi">Trình lấy dữ liệu đang tải thông tin video nhạc từ nguồn TheAudioDB.com. Do nhiều khó khăn tìm kiếm khác nhau, trình lấy dữ liệu này hiện chỉ hỗ trợ định dạng thư mục/tên tệp tin theo mẫu 'nghệ sỹ - tên track' nếu không sẽ không trả lại kết quả.</description>
+    <description lang="zh">从 theaudiodb.com 下载音乐电视资料。为简化搜索，刮削器限定文件夹/文件名格式为“歌手 - 歌名”，否则将不会返回结果。</description>
+    <description lang="zh_TW">此搜括器是從 TheAudioDB.com下載取得音樂影片資訊。因為各種不同搜尋變數，此搜括器目前須將資料夾／檔案名稱 重新命名為 "演出者－歌曲資訊"否則將無法正常取得專輯資料。帶有'-"符號的演出者或歌曲資訊也有極高可能無法找到。</description>
+    <license>GPL v2.0</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=136105</forum>
+    <website>www.theaudiodb.com</website>
+    <email>zag@kodi.tv</email>
+	<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+	</assets>
+	<news>Fixed artist apostrophes</news>
+    <source>https://github.com/zag2me/metadata.musicvideos.theaudiodb.com</source>
+  </extension>
+</addon>
+
+<addon id="metadata.themusicvideodb.org" name="The MusicVideoDB MQ" version="3.0.8" provider-name="Team XBMC / MarcosQui">
+  <requires>
+    <import addon="xbmc.metadata" version="1.0"/>
+    <import addon="metadata.common.themoviedb.org" version="2.1.2"/>
+    <import addon="metadata.common.imdb.com" version="2.1.9"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.musicvideos" language="en" library="tmvdb.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TMVDB MQ MusicVideos Scraper</summary>
+    <summary lang="pt">Scraper de Videos Musicais TMVDB MQ</summary>
+    <description lang="en">themoviedb.org is a free and open media database. It's completely user driven by people like you. TMVDB is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like XBMC to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.</description>
+    <description lang="pt">O themoviedb.org é uma base de dados de mídia livre e aberta. É completamente atualizado por pessoas como você e usado por milhões todos os meses. Com o poderoso motor de busca disponível se tornou o favorito de muitos softwares media center, como o popular XBMC, para obter informação, posters e fanart que enriquecem a experiência do usuário.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon
     id="plugin.audio.antenne-bayern"
     name="[COLOR blue]Antenne[/COLOR] [COLOR yellow]Bayern[/COLOR]"
@@ -100,6 +263,37 @@ version="1.0.1"
 </addon>
 
 <addon
+    id="plugin.audio.hitradiort1"
+    name="[COLOR orange]Hitradio Rt1[/COLOR]"
+    version="1.0.0"
+    provider-name="SH Germania">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Hitradio Rt1</summary>
+		<description>
+Besucht uns mal auf Facebook.
+FACEBOOK GRUPPE HSK-DE:
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/
+
+
+Hitradio Rt1 WEB URL:
+
+https://www.rt1.de/</description>
+		<license></license>
+		<language>De</language>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+
+<addon
     id="plugin.audio.iloveradio"
     name="[COLOR red]I Love Radio[/COLOR]"
     version="1.0.0"
@@ -150,6 +344,28 @@ http://www.iloveradio.de/
 			<language>en</language>
 		</extension>
 	</addon>
+
+<addon id="plugin.audio.prime_music" name="Amazon Prime Music" version="0.5.1" provider-name="piet">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.mechanize" version="0.2.6"/>
+        <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Amazon Prime Music Add-on (DE)</summary>
+        <language></language>
+        <description lang="en">Amazon Prime Music Add-on (DE)</description>
+        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>https://github.com/</source>
+        <forum>http://www.kodinerds.net</forum>
+        <website>http://www.amazon.de</website>
+    </extension>
+</addon>
 
 <addon id="plugin.audio.rautemusik"
 	name="RauteMusik.FM"
@@ -302,7 +518,7 @@ The source for this addon can be found at https://github.com/pla1/plugin.image.5
   </extension>
 </addon>
 
-<addon id="plugin.video.barbie" name="[COLOR orange]Barbies Welt[/COLOR]" version="1.0.0" provider-name="GUIDO SASSE | HSK-DE">
+<addon id="plugin.video.barbie" name="[COLOR orange]B[/COLOR]arbie[COLOR orange]s[/COLOR] [COLOR orange]W[/COLOR]el[COLOR orange]t[/COLOR]" version="1.0.2" provider-name="GUIDO | HSK-DE">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
 	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
@@ -313,14 +529,37 @@ The source for this addon can be found at https://github.com/pla1/plugin.image.5
 	</extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Barbies Welt</summary>
-    <description>FACEBOOK GRUPPE HSK-DE :
+    <summary>Barbies Welt.</summary>
+    <description>
+Barbie Filme auf YouTube.
+
+FACEBOOK GRUPPE HSK-DE :
 HARDWARE - SOFTWARE - KODI - DE
 https://www.facebook.com/groups/hskde/</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.bares.rares" name="[COLOR aqua]Bares[/COLOR] für [COLOR aqua]Rares[/COLOR]" version="1.2.3" provider-name="GUIDO | HSK-DE">
+<addon id="plugin.video.bares.rares" name="[COLOR aqua]B[/COLOR]are[COLOR aqua]s[/COLOR] für [COLOR aqua]R[/COLOR]are[COLOR aqua]s[/COLOR]" version="1.2.4" provider-name="GUIDO | HSK-DE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
+	<import addon="plugin.video.youtube" version="5.3.7"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Bares für Rares.</summary>
+    <description>
+Bares für Rares auf YouTube.
+FACEBOOK GRUPPE HSK-DE :
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.film.yt" name="[COLOR lime]F[/COLOR]ilm[COLOR lime]e[/COLOR] on [COLOR lime]Y[/COLOR]outub[COLOR lime]e[/COLOR]" version="1.2.3" provider-name="GUIDO SASSE | HSK-DE">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
 	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
@@ -332,25 +571,9 @@ https://www.facebook.com/groups/hskde/</description>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary>Filme auf Youtube</summary>
-    <description>FACEBOOK GRUPPE HSK-DE :
-HARDWARE - SOFTWARE - KODI - DE
-https://www.facebook.com/groups/hskde/</description>
-  </extension>
-</addon>
-
-<addon id="plugin.video.film.yt" name="[COLOR lime]Filme[/COLOR] on [COLOR blue]Youtube[/COLOR]" version="1.2.2" provider-name="GUIDO SASSE | HSK-DE">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
-	<import addon="plugin.video.youtube" version="5.3.7"/>
-  </requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>Filme auf Youtube</summary>
-    <description>FACEBOOK GRUPPE HSK-DE :
+    <description>
+Filme auf Youtube.
+FACEBOOK GRUPPE HSK-DE :
 HARDWARE - SOFTWARE - KODI - DE
 https://www.facebook.com/groups/hskde/</description>
   </extension>
@@ -370,7 +593,7 @@ https://www.facebook.com/groups/hskde/</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.herzkino.yt" name="[COLOR red]Herz Kino[/COLOR]" version="1.0.0" provider-name="GUIDO SASSE | HSK-DE">
+<addon id="plugin.video.herzkino.yt" name="[COLOR red]H[/COLOR]er[COLOR red]z[/COLOR] [COLOR red]K[/COLOR]in[COLOR red]o[/COLOR]" version="1.0.1" provider-name="GUIDO | HSK-DE">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
 	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
@@ -381,14 +604,16 @@ https://www.facebook.com/groups/hskde/</description>
 	</extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Herz Kino</summary>
-    <description>FACEBOOK GRUPPE HSK-DE :
+    <summary>Herz Kino.</summary>
+    <description>
+Herz Kino auf YouTube.
+FACEBOOK GRUPPE HSK-DE :
 HARDWARE - SOFTWARE - KODI - DE
 https://www.facebook.com/groups/hskde/</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.kinderfilme.yt" name="[COLOR lime]Kinderfilme[/COLOR] on [COLOR blue]Youtube[/COLOR]" version="1.2.2" provider-name="GUIDO SASSE | HSK-DE">
+<addon id="plugin.video.horror.yt" name="[COLOR red]H[/COLOR]orro[COLOR red]r[/COLOR]" version="1.2.3" provider-name="GUIDO | HSK-DE">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
 	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
@@ -399,14 +624,16 @@ https://www.facebook.com/groups/hskde/</description>
 	</extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Filme und Zeichentrick für Kids auf Youtube</summary>
-    <description>FACEBOOK GRUPPE HSK-DE :
+    <summary>HORROR Youtube</summary>
+    <description>
+Horror Filme auf Youtube.
+FACEBOOK GRUPPE HSK-DE :
 HARDWARE - SOFTWARE - KODI - DE
 https://www.facebook.com/groups/hskde/</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.kino.trailer" name="Kino Trailer" version="1.2.2" provider-name="GUIDO SASSE | HSK-DE">
+<addon id="plugin.video.kinderfilme.yt" name="[COLOR aqua]K[/COLOR]inderfilm[COLOR aqua]e[/COLOR] on [COLOR blue]Y[/COLOR]outub[COLOR blue]e[/COLOR]" version="1.2.3" provider-name="GUIDO | HSK-DE">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
 	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
@@ -417,14 +644,36 @@ https://www.facebook.com/groups/hskde/</description>
 	</extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Kino Trailer</summary>
-    <description>FACEBOOK GRUPPE HSK-DE :
+    <summary>Kinderfilme auf Youtube</summary>
+    <description>
+Kinderfilme auf YouTube.
+FACEBOOK GRUPPE HSK-DE :
 HARDWARE - SOFTWARE - KODI - DE
 https://www.facebook.com/groups/hskde/</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.musikvideos.yt" name="[COLOR lime]Musik Videos[/COLOR] on [COLOR blue]Youtube[/COLOR]" version="1.2.2" provider-name="GUIDO SASSE | HSK-DE">
+<addon id="plugin.video.kino.trailer" name="[COLOR aqua]K[/COLOR]in[COLOR aqua]o[/COLOR] [COLOR aqua]T[/COLOR]raile[COLOR aqua]r[/COLOR]" version="1.2.4" provider-name="GUIDO | HSK-DE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
+	<import addon="plugin.video.youtube" version="5.3.7"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Kino Trailer.</summary>
+    <description>
+Kino Trailer auf YouTube.
+FACEBOOK GRUPPE HSK-DE :
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.musikvideos.yt" name="[COLOR lime]Musik Videos[/COLOR] on [COLOR blue]Youtube[/COLOR]" version="1.2.3" provider-name="GUIDO | HSK-DE">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
 	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
@@ -436,7 +685,9 @@ https://www.facebook.com/groups/hskde/</description>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary>Musik Videos auf Youtube</summary>
-    <description>FACEBOOK GRUPPE HSK-DE :
+    <description>
+Musik Videos auf YouTube.
+FACEBOOK GRUPPE HSK-DE :
 HARDWARE - SOFTWARE - KODI - DE
 https://www.facebook.com/groups/hskde/</description>
   </extension>
@@ -480,7 +731,7 @@ https://www.facebook.com/groups/hskde/</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.skinbase" name="[COLOR orange]GUIDOS[/COLOR] [COLOR cyan]SKINBASE[/COLOR]" version="1.2.1" provider-name="GUIDO SASSE | HSK-DE">
+<addon id="plugin.video.skinbase" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR]" version="1.2.2" provider-name="GUIDO | HSK-DE">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
 	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
@@ -491,8 +742,10 @@ https://www.facebook.com/groups/hskde/</description>
 	</extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Guidos Youtube Chanel über Kodi Skins und Mods</summary>
-    <description>FACEBOOK GRUPPE HSK-DE :
+    <summary>Guidos SkinBase</summary>
+    <description>
+Guidos Youtube Chanel über Kodi Skins und Mods.
+FACEBOOK GRUPPE HSK-DE :
 HARDWARE - SOFTWARE - KODI - DE
 https://www.facebook.com/groups/hskde/</description>
   </extension>
@@ -604,7 +857,7 @@ https://www.facebook.com/groups/hskde/</description>
 <addon id="repository.hsktooltime" name="[COLOR blue]HSK[/COLOR] TOOL [COLOR blue]TIME[/COLOR]" version="1.0.0" provider-name="[COLOR lime]GUIDO | SH Germany | HSK-DE[/COLOR]">
     <extension point="xbmc.addon.repository" name="HSK TOOL TIME REPOSITORY">
 		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/hsktooltime/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/kaffepausse71/hsktooltime/master/addons.xml.md5</checksum>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/hsktooltime/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/hsktooltime/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -612,5 +865,61 @@ https://www.facebook.com/groups/hskde/</description>
         <description>HSK TOOL TIME präsentiert eine kleinen Sammlung an erlesenen Musik,Video und weiteren Addons. </description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="script.speedtestnet"
+       name="ARNU Box Speed Tester"
+       version="1.0.0"
+       provider-name="ARNU Box / Josh.5">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">ARNU Box Speed Tester</summary>
+    <description lang="en">ARNU Box Speed Tester powered by speedtest.net will give you accurate Internet speed/ping test results. \n Brought to you by http://www.arnubox.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="service.fritzbox.callmonitor" name="Fritzbox Callmonitor" version="2.0.10" provider-name="Birger Jesch, Lutz Leonhardt">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0" />
+    <import addon="xbmc.json" version="6.32.4" />
+    <import addon="script.module.requests" version="2.3.0" />
+    <import addon="script.module.pil" version="1.1.7" />
+    <import addon="script.module.six" version="1.9.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Fritzbox Callmonitor</summary>
+    <description lang="en">This addon displays incoming and outgoing calls from a Fritzbox connecting on port 1012. To enable the listen port in your Fritzbox enter the following code into your telephone.
+#96*5* Callmonitor-Support enabled.
+#96*4* Callmonitor-Support disabled.</description>
+
+    <summary lang="de">Fritzbox Anrufmonitor</summary>
+    <description lang="de">Dieses Addon zeigt eingehende/ausgehende Anrufe auf der Fritzbox an. Dazu muss der Port 1012 auf der Fritzbox freigeschaltet sein. Geben Sie dazu auf dem Telefon folgenden Telefoncode ein.
+#96*5* Anrufmonitor-Support aktivieren.
+#96*4* Anrufmonitor-Support deaktivieren.</description>
+
+    <summary lang="nl">Fritzbox Oproepmonitor</summary>
+    <description lang="nl">Deze Addon toont de binnenkomende/uitgaande oproepen van een Fritzbox op port 1012. Om de port aan te zetten, toets de volgende code in op je telefoon.
+#96*5* Oproepmonitor-Support activeren.
+#96*4* Oproepmonitor-Support deactivieren.</description>
+
+    <disclaimer lang="de">Benutzung auf eigene Gefahr</disclaimer>
+    <disclaimer lang="en">Use at your own risk</disclaimer>
+    <disclaimer lang="nl">Gebruik op eigen risico</disclaimer>
+
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://www.vdr-portal.de/board60-linux/board62-software/board95-xbmc/121034-announce-fritz-box-anrufmonitor-f%C3%BCr-xbmc/</forum>
+    <website>http://vdr4bj1.no-ip.org</website>
+    <email>birger.jesch@gmail.com, kontakt@lutzleonhardt.de</email>
+    <source>https://github.com/b-jesch/service.fritzbox.callmonitor</source>
+  </extension>
 </addon>
 </addons>

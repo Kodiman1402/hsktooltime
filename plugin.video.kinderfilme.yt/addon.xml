@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.kinderfilme.yt" name="[COLOR lime]Kinderfilme[/COLOR] on [COLOR blue]Youtube[/COLOR]" version="1.2.2" provider-name="GUIDO SASSE | HSK-DE">
+<addon id="plugin.video.kinderfilme.yt" name="[COLOR aqua]K[/COLOR]inderfilm[COLOR aqua]e[/COLOR] on [COLOR blue]Y[/COLOR]outub[COLOR blue]e[/COLOR]" version="1.2.3" provider-name="GUIDO | HSK-DE">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
 	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
@@ -10,8 +10,10 @@
 	</extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Filme und Zeichentrick für Kids auf Youtube</summary>
-    <description>FACEBOOK GRUPPE HSK-DE :
+    <summary>Kinderfilme auf Youtube</summary>
+    <description>
+Kinderfilme auf YouTube.
+FACEBOOK GRUPPE HSK-DE :
 HARDWARE - SOFTWARE - KODI - DE
 https://www.facebook.com/groups/hskde/</description>
   </extension>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.skinbase" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR]" version="1.2.2" provider-name="GUIDO | HSK-DE">
+<addon id="plugin.video.horror.yt" name="[COLOR red]H[/COLOR]orro[COLOR red]r[/COLOR]" version="1.2.3" provider-name="GUIDO | HSK-DE">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
 	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
@@ -10,9 +10,9 @@
 	</extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Guidos SkinBase</summary>
+    <summary>HORROR Youtube</summary>
     <description>
-Guidos Youtube Chanel über Kodi Skins und Mods.
+Horror Filme auf Youtube.
 FACEBOOK GRUPPE HSK-DE :
 HARDWARE - SOFTWARE - KODI - DE
 https://www.facebook.com/groups/hskde/</description>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.bares.rares" name="[COLOR aqua]Bares[/COLOR] für [COLOR aqua]Rares[/COLOR]" version="1.2.3" provider-name="GUIDO | HSK-DE">
+<addon id="plugin.video.bares.rares" name="[COLOR aqua]B[/COLOR]are[COLOR aqua]s[/COLOR] für [COLOR aqua]R[/COLOR]are[COLOR aqua]s[/COLOR]" version="1.2.4" provider-name="GUIDO | HSK-DE">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
 	<import addon="script.module.beautifulsoup4" version="4.4.1.1"/>
@@ -10,8 +10,10 @@
 	</extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Filme auf Youtube</summary>
-    <description>FACEBOOK GRUPPE HSK-DE :
+    <summary>Bares für Rares.</summary>
+    <description>
+Bares für Rares auf YouTube.
+FACEBOOK GRUPPE HSK-DE :
 HARDWARE - SOFTWARE - KODI - DE
 https://www.facebook.com/groups/hskde/</description>
   </extension>
