@@ -218,6 +218,35 @@ version="1.0.1"
     </extension>
 </addon>
 
+<addon
+    id="plugin.audio.antenne_vorarlberg"
+    name="[COLOR yellow]ANTENNE VORARLBERG[/COLOR]"
+    version="1.0.0"
+    provider-name="SH Germania">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>ANTENNE VORARLBERG</summary>
+		<description>[COLOR yellow]
+https://forum.kodiman.eu/forum/
+https://www.facebook.com/
+
+ANTENNE VORARLBERG WEB URL:
+
+http://www.antennevorarlberg.at/[/COLOR]
+		</description>
+		<license></license>
+		<language></language>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+
 <addon id="plugin.audio.ballermann" name="Radio Ballermann" version="2.0" provider-name="IPTVxtra Team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -260,6 +289,33 @@ version="1.0.1"
     <description lang="en">@Nemzzy668  / @_MANC_ / @EchoCoder</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon
+    id="plugin.audio.big_fm"
+    name="[COLOR darkorange]BIG FM[/COLOR]"
+    version="1.0.0"
+    provider-name="SH Germania">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>BIG FM</summary>
+		<description>
+
+[COLOR darkorange]BIG FM WEB URL:
+http://www.bigfm.de/[/COLOR]
+
+		</description>
+		<license></license>
+		<language></language>
+		<source></source>
+		<email></email>
+	</extension>
 </addon>
 
 <addon
@@ -324,6 +380,20 @@ http://www.iloveradio.de/
 		<source></source>
 		<email></email>
 	</extension>
+</addon>
+
+<addon id="plugin.audio.liveradio_de" name="[COLOR white]LIVE RADIO DE[/COLOR]" version="1.0.3" provider-name="loki1979">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>LIVE RADIO DE</summary>
+    <description>http://liveradio.de/</description>
+  </extension>
 </addon>
 
 	<addon id="plugin.audio.MD3-Audio" version="1.0.2" name="MD3 Audio" provider-name="Mucky Duck">
@@ -500,6 +570,34 @@ https://www.kodiman.net/[/COLOR]</description>
     <source></source>
     <email></email>
   </extension>
+</addon>
+
+<addon
+    id="plugin.audio_stromkraftradio"
+    name="Stromkraftradio"
+    version="1.0.0"
+    provider-name="SH Germania">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Stromkraftradio</summary>
+		<description>
+Techno Channel STREAM
+Electronic Channel STREAM
+
+Stromkraftradio WEB URL:
+http://stromkraftradio.com/
+		</description>
+		<license></license>
+		<language></language>
+		<source></source>
+		<email></email>
+	</extension>
 </addon>
 
 <addon id="plugin.image.500px" name="500px" version="0.3.2"
@@ -904,7 +1002,7 @@ https://www.facebook.com/groups/hskde/</description>
 <addon id="repository.hsktooltime" name="[COLOR blue]HSK[/COLOR] TOOL [COLOR blue]TIME[/COLOR]" version="1.0.0" provider-name="[COLOR lime]GUIDO | SH Germany | HSK-DE[/COLOR]">
     <extension point="xbmc.addon.repository" name="HSK TOOL TIME REPOSITORY">
 		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/hsktooltime/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/kaffepausse71/hsktooltime/master/addons.xml.md5</checksum>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/hsktooltime/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/hsktooltime/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
