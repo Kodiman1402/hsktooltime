@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+    id="plugin.audio_stromkraftradio"
+    name="Stromkraftradio"
+    version="1.0.0" 
+    provider-name="SH Germania">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Stromkraftradio</summary>
+		<description>
+Techno Channel STREAM
+Electronic Channel STREAM
+
+Stromkraftradio WEB URL:
+http://stromkraftradio.com/
+		</description>
+		<license></license>
+		<language></language>	
+		<source></source>
+		<email></email>
+	</extension>
+</addon>

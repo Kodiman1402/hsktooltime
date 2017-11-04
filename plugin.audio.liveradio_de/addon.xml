@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.liveradio_de" name="[COLOR white]LIVE RADIO DE[/COLOR]" version="1.0.3" provider-name="loki1979">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>LIVE RADIO DE</summary>
+    <description>http://liveradio.de/</description>
+  </extension>
+</addon>
